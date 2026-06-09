@@ -7,6 +7,8 @@ def diagonal_difference(matrix):
 		secondary += matrix[i][n - 1 - i]
 	return abs(primary - secondary)
 
-matrix = [[11, 2, 4], [4, 5, 6], [10, 8, -12]]
+matrix = [[11, 2, 4], 
+          [4, 5, 6], 
+          [10, 8, -12]]
 print(diagonal_difference(matrix))
 
